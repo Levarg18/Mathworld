@@ -40,6 +40,7 @@ nav li#user-info > span:after{
   background: #fff;
   left: 300px;
   padding: 20px;
+
 }
 .closed-menu .content-wrapper{
   width: 100%;
@@ -60,7 +61,10 @@ nav li#user-info > span:after{
 
 .closed-menu .vertical-menu-wrapper ul,.closed-menu .vertical-menu-wrapper hr{margin-left: -300px;}
 .vertical-menu-wrapper ul, .vertical-menu-wrapper hr{transition: all 100ms;}
-.content-wrapper{background: #ebebeb;}
+.content-wrapper{
+  background: #ebebeb;
+overflow:scroll;
+}
 .content{
   width: 90%;
   min-height: 90%;
