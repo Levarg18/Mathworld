@@ -86,4 +86,5 @@ overflow:scroll;
 .vertical-menu-wrapper
 {
   background-image: url("https://nationaltoday.com/wp-content/uploads/2022/08/22-National-Math-Day.jpg");
+  opacity: 0.5;
 }
