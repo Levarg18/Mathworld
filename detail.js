@@ -111,9 +111,153 @@ content={
     </mtr>
   </mtable>
 </math>
-<h1> Operations </h1>
-<h4> 1. Addition </h4>
-<p>When performing an addition on two complex numbers we add the real part of the first number (a1) with the real part of the second number (a2). We do the same for the imaginary parts, (b1) is added to (b2).</p>
+<h4> Algebraic Operations on Complex Numbers </h4>
+<p>There can be four types of algebraic operation on complex numbers which are mentioned below. 
+Visit the linked article to know more about these algebraic operations along with solved examples. 
+The four operations on the complex numbers include: 
+<ul>
+<li>Addition</li>
+<li>Subtraction</li>
+<li>Multiplication</li>
+<li>Division</li>
+</ul><br>
+</p>
+<h4>Algebraic Operations on Complex Numbers Summary</h4>
+<p>
+Assume that z1 = a1+ib1 and z2 = a2+ib2 are the two complex numbers<br>
+
+Addition: z1+z2 =( a1+a2 )+i( b1+b2 )<br>
+
+Subtraction: z1-z2 = (a1-a2)+i(b1-b2)<br>
+
+Multiplication: z1 z2 = (a1 a2 – b1 b2 ) + i(a1 b2 + a2 b1 )<br>
+
+Division:<br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtable columnalign="left" columnspacing="1em" rowspacing="4pt">
+    <mtr>
+      <mtd>
+        <mfrac>
+          <msub>
+            <mi>z</mi>
+            <mrow data-mjx-texclass="ORD">
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <msub>
+            <mi>z</mi>
+            <mrow data-mjx-texclass="ORD">
+              <mn>2</mn>
+            </mrow>
+          </msub>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+          <mrow>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <msub>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msub>
+          </mrow>
+          <mrow>
+            <msubsup>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msubsup>
+            <mo>+</mo>
+            <msubsup>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msubsup>
+          </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mi>i</mi>
+        <mfrac>
+          <mrow>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <mo>&#x2212;</mo>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msub>
+          </mrow>
+          <mrow>
+            <msubsup>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msubsup>
+            <mo>+</mo>
+            <msubsup>
+              <mi>b</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msubsup>
+          </mrow>
+        </mfrac>
+      </mtd>
+    </mtr>
+  </mtable>
+</math><br>
 
         `
         } ,
@@ -179,17 +323,51 @@ content={
   <mo>+</mo>
   <mn>2</mn>
   <mi>y</mi>
-</math>
-        `
-        } ,
+</math><br>
+<h4> Partial Derivative Formula </h4>
+<p> If f(x,y) is a function, where f partially depends on x and y and if we differentiate f with respect to x and y then the derivatives are called the partial derivative of f.
+ The formula for partial derivative of f with respect to x taking y as a constant is given by: </p><br>
+ <img src="https://cdn1.byjus.com/wp-content/uploads/2019/09/partial-derivative-formula.png" alt="Gt" width="671" height="165"> <br>
+ <h4> Examples:</H4><BR>
+ <p> Example 1: Determine the partial derivative of the function: f (x,y) = 3x + 4y.<BR>
 
-        {header:"y",
-        content:`<h1>aidad</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+ Solution:<BR>
+ 
+ Given function: f (x,y) = 3x + 4y<BR>
+ 
+ To find ∂f/∂x, keep y as constant and differentiate the function:<BR>
+ 
+ Therefore, ∂f/∂x = 3<BR>
+ 
+ Similarly, to find  ∂f/∂y, keep x as constant and differentiate the function:<BR>
+ 
+ Therefore, ∂f/∂y = 4<BR><br>
+ 
+ Example 2: Find the partial derivative of f(x,y) = x2y + sin x + cos y.<br>
+
+Solution:<br>
+
+Now, find out fx first keeping y as constant<br>
+
+fx = ∂f/∂x = (2x) y + cos x + 0<br>
+
+= 2xy + cos x<br>
+
+When we keep y as constant cos y becomes a constant so its derivative becomes zero.<br>
+
+Similarly, finding fy<br>
+
+fy = ∂f/∂y = x2 + 0 + (-sin y)<br>
+
+= x2 – sin y<br>
+
+
+
+
+
         `
         } 
+
     
     ],
     Second_year:[
