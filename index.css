@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   
+  
 }
 body {
   display: flex;
@@ -14,7 +15,6 @@ body {
   flex-wrap: wrap;
   min-height: 100vh;
   background: #d3d4da;
-  background-image: url("https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   overflow:auto;
 }
 .container {
@@ -112,13 +112,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
   height: 100%;
   line-height: 1.8;
+  background-image: url("https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
 
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("D:\Maths assignment\bgimage1.jpeg");
+  
   min-height: 100%;
 }
 
