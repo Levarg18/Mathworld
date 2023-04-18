@@ -88,3 +88,9 @@ overflow:scroll;
   background-image: url("https://images.pexels.com/photos/374916/pexels-photo-374916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
 }
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
